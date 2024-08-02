@@ -1,0 +1,4 @@
+{
+	"extends": "@coderebus/typescript/react-library.json",
+	"include": ["components/*.tsx"]
+}

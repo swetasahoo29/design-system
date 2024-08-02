@@ -1,0 +1,23 @@
+{
+  "docs/**/*.{js,jsx,ts,tsx,mjs,mts,cjs,cts,md,mdx}": [
+    "eslint --config .eslintrc.cjs --fix --cache",
+		"prettier --config prettier.config.mjs --write"
+  ],
+  "tools/**/*.{js,jsx,ts,tsx,mjs,mts,cjs,cts}": [
+    "eslint --config .eslintrc.cjs --fix --cache",
+		"prettier --config prettier.config.mjs --write"
+  ],
+	"tools/**/*.{json,yaml}": ["prettier --write"],
+  "packages/**/*.{js,jsx,ts,tsx,mjs,mts,cjs,cts}": [
+    "eslint --config .eslintrc.cjs --fix --cache",
+		"prettier --config prettier.config.mjs --write"
+  ],
+	"packages/**/*.{css,scss}": ["stylelint --config .stylelintrc --fix"],
+	"packages/**/*.{json,yaml}": ["prettier --config prettier.config.mjs --write"],
+  "libs/**/*.{js,jsx,ts,tsx,mjs,mts,cjs,cts}": [
+    "eslint --config .eslintrc.cjs --fix --cache",
+		"prettier --config prettier.config.mjs --write"
+  ],
+  "libs/**/*.{css,scss}": ["stylelint --config .stylelintrc --fix"],
+  "libs/**/*.{json,yaml}": ["prettier --config prettier.config.mjs --write"]
+}

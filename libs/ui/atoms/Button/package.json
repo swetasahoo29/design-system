@@ -1,0 +1,43 @@
+{
+  "name": "@coderebus/button",
+  "version": "1.3.0",
+  "description": "Button component",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@coderebus/tailwind": "workspace:*",
+    "@radix-ui/react-toggle": "1.0.3",
+    "class-variance-authority": "0.7.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^18.x",
+    "react-dom": "^18.x"
+  }
+}

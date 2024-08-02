@@ -1,0 +1,14 @@
+{
+	"name": "@coderebus/scripts",
+	"version": "0.1.0",
+	"private": true,
+	"bin": {
+		"exec": "exec.mjs"
+	},
+	"type": "module",
+	"files": [
+		"*"
+	],
+	"devDependencies": {},
+	"dependencies": {}
+}
