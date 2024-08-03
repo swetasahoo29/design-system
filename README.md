@@ -44,4 +44,6 @@ pnpm generate
 - [ ] include storybook to nx tasks by making it a workspace (not feasible) - 1/4d
 - [ ] change all components' build tool from tsup to vite - 1/4d
 
+- [ ] verdaccio
+- [ ] add biome
 - [ ] playroom (not feasible as of now)
